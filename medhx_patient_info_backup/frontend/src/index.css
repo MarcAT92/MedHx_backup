@@ -140,6 +140,32 @@ nav button {
   font-size: 1em;
   margin-left: 10px;
 }
+nav button:hover {
+  background: var(--error);
+  color: var(--white);
+}
+.landing-page button {
+  background: rgb(149, 145, 145);
+  color: #eee;
+  border: 2px solid #fafcfb;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+.landing-page button:hover {
+  background: var(--success);
+  color: var(--white);
+}
+.active {
+  color: rgb(245, 239, 239); 
+  text-decoration: underline;
+}
+.landing-page{
+  text-align: center;
+}
 /* auth forms */
 form.signup, form.login, form.forgot-password, form.reset-password {
   max-width: 400px;

@@ -3,6 +3,7 @@ import { useAuthContext } from './hooks/useauthContext';
 
 
 // pages and components
+import LandingPage from './pages/LandingPage';
 import Home from './pages/Home'
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={user ? <Home /> : <Navigate to="login" />}
+            element={user ? <Home /> : <LandingPage />}
           />
            <Route
             path="/login"

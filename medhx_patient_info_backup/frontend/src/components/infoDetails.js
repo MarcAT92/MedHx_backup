@@ -30,9 +30,9 @@ const InfoDetails = ({ info }) => {
     return (
         <div className="info-details">
             <h4>{info.title}</h4>
-            <p><strong>Blood Pessure:</strong>{info.bloodpressure}</p>
-            <p><strong>Heart Rate:</strong>{info.heartrate}</p>
-            <p><strong>Blood Sugar:</strong>{info.bloodsugar}</p>
+            <p><strong>Blood Pessure:</strong> {info.bloodpressure}</p>
+            <p><strong>Heart Rate:</strong> {info.heartrate}</p>
+            <p><strong>Blood Sugar:</strong> {info.bloodsugar}</p>
             <p><strong>Created At:</strong> {new Date(info.createdAt).toLocaleDateString()}</p>
             <p>{formatDistanceToNow(new Date(info.createdAt), {addSuffix: true})}</p>
             <span className="material-symbols-outlined" onClick={handleClick}>delete</span>
