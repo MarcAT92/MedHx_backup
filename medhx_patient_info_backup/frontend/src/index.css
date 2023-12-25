@@ -174,6 +174,64 @@ form.signup, form.login, form.forgot-password, form.reset-password {
   background: var(--secondary);
   border-radius: 4px;
 }
+.login {
+  display: flex;
+  flex-direction: column;
+  /* Your existing styles for the form */
+}
+
+.login button {
+  margin-top: 10px;
+}
+
+.login .forgot-password {
+  margin-top: 10px;
+  margin-left: auto; /* Move the link to the right by setting auto margin to the left */
+  color: #007bff;
+  text-decoration: none;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  /* Your existing styles for the form */
+}
+
+.login button {
+  margin-top: 10px;
+}
+
+.login .forgot-password {
+  margin-top: 10px;
+  margin-left: auto; /* Move the link to the right by setting auto margin to the left */
+  color: #007bff;
+  text-decoration: none;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  /* Your existing styles for the form */
+}
+
+.login button {
+  margin-top: 10px;
+}
+
+.login .forgot-password {
+  margin-top: 10px; 
+  color: #007bff;
+  text-decoration: none;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup button {
+  margin-top: 10px;
+}
+
+
+
 
 
 
