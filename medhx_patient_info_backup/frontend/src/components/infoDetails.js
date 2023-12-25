@@ -1,6 +1,8 @@
 import {  useInfoContext } from '../hooks/useInfoContext'
 import { useAuthContext } from '../hooks/useauthContext'
 
+
+
 // date fns
 import  formatDistanceToNow from 'date-fns/formatDistanceToNow'
 
@@ -14,7 +16,7 @@ const InfoDetails = ({ info }) => {
             return
         }
 
-        const response = await fetch(`http://localhost:4000/api/info/` + info._id, {
+        const response = await fetch(`https://kind-erin-viper-hose.cyclic.app/api/info/` + info._id, {
             method: 'DELETE',
             headers: {
                 'Authorization': `Bearer ${user.token}`
