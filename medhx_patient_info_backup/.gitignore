@@ -1,0 +1,7 @@
+mongoDB.txt
+
+# Frontend environment variables
+/frontend/.env
+
+# Backend environment variables
+/backend/.env

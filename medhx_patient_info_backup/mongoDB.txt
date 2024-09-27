@@ -1,2 +1,0 @@
-username = marcathomas25
-pw = 8za9cYn9sObJNSJg
